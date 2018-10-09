@@ -1,0 +1,43 @@
+<RCC>
+  <qresource prefix="/">
+    <file>img/Crystal_Clear_app_kfm_home.png</file>
+    <file>img/Gohomenew.png</file>
+    <file>img/NM_State_University_logo.png</file>
+    <file>img/NMlogo_1colorstate_black.png</file>
+    <file>img/NMSU.png</file>
+    <file>img/Search_in_home.png</file>
+    <file>img/outlet.png</file>
+    <file>img/magn_glass.png</file>
+    <file>img/powIcon.png</file>
+    <file>img/Power_off_icon.png</file>
+    <file>img/room.png</file>
+    <file>img/Cap.png</file>
+    <file>img/Ind.png</file>
+    <file>img/Resistive.png</file>
+    <file>img/Green_animated_arrow_32px.gif</file>
+    <file>img/Green_animated_arrow_64px.gif</file>
+    <file>img/Green_animated_arrow_128px.gif</file>
+    <file>img/Green_animated_arrow_256px.gif</file>
+    <file>img/Green_animated_arrow_512px.gif</file>
+    <file>img/Green_animated_arrow_600px.gif</file>
+    <file>img/motor145px.gif</file>
+    <file>img/relaySPDT.png</file>
+    <file>img/powSub.jpg</file>    
+    <file>img/lightBulb.svg</file>
+    <file>img/Gray_bulb145px.png</file>
+    <file>img/Gray_bulb200px.svg</file>
+    <file>img/Outliner_Mac_greyBulb.png</file>
+    <file>img/Solar_energy128px.png</file>
+    <file>img/Motor_DC_2Pole.png</file>
+    <file>img/Motor_DC_3Pole.png</file>
+    <file>img/Motor_DC_3PoleFull.png</file>
+    <file>img/480px_Green_Arrow_Up.png</file>
+    <file>img/480px_Green_Arrow_Down.png</file>
+    <file>img/480px_Green_Arrow_Right.png</file>
+    <file>img/480px_Green_Arrow_Left.png</file>
+    <file>img/480px_Red_Arrow_Up.png</file>
+    <file>img/480px_Red_Arrow_Down.png</file>
+    <file>img/480px_Red_Arrow_Left.png</file>
+    <file>img/480px_Red_Arrow_Right.png</file>
+  </qresource>
+</RCC>
