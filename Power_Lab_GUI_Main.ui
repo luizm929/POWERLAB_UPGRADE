@@ -9161,40 +9161,12 @@ border-style: outset;
       <bool>true</bool>
      </property>
     </widget>
-    <widget class="QFrame" name="Ace_L_or_G_frame">
-     <property name="geometry">
-      <rect>
-       <x>660</x>
-       <y>190</y>
-       <width>191</width>
-       <height>111</height>
-      </rect>
-     </property>
-     <property name="toolTip">
-      <string>This is the Load/Gen Controls.</string>
-     </property>
-     <property name="styleSheet">
-      <string notr="true"/>
-     </property>
-     <property name="frameShape">
-      <enum>QFrame::Box</enum>
-     </property>
-     <property name="frameShadow">
-      <enum>QFrame::Plain</enum>
-     </property>
-     <property name="lineWidth">
-      <number>3</number>
-     </property>
-     <property name="midLineWidth">
-      <number>0</number>
-     </property>
-    </widget>
     <widget class="QGroupBox" name="groupBox_2">
      <property name="geometry">
       <rect>
-       <x>30</x>
-       <y>30</y>
-       <width>201</width>
+       <x>10</x>
+       <y>10</y>
+       <width>181</width>
        <height>111</height>
       </rect>
      </property>
@@ -9204,13 +9176,16 @@ border-style: outset;
      <widget class="QWidget" name="layoutWidget">
       <property name="geometry">
        <rect>
-        <x>10</x>
-        <y>10</y>
+        <x>0</x>
+        <y>0</y>
         <width>181</width>
-        <height>91</height>
+        <height>107</height>
        </rect>
       </property>
       <layout class="QGridLayout" name="gridLayout">
+       <property name="sizeConstraint">
+        <enum>QLayout::SetFixedSize</enum>
+       </property>
        <property name="spacing">
         <number>0</number>
        </property>
@@ -9221,10 +9196,13 @@ border-style: outset;
            <property name="font">
             <font>
              <family>Inter UI Medium</family>
-             <pointsize>12</pointsize>
+             <pointsize>10</pointsize>
              <weight>50</weight>
              <bold>false</bold>
             </font>
+           </property>
+           <property name="lineWidth">
+            <number>1</number>
            </property>
            <property name="text">
             <string>P</string>
@@ -9309,7 +9287,7 @@ padding:2px;
            <property name="font">
             <font>
              <family>Inter UI Medium</family>
-             <pointsize>12</pointsize>
+             <pointsize>10</pointsize>
              <weight>50</weight>
              <bold>false</bold>
             </font>
@@ -9397,7 +9375,7 @@ padding:2px;
            <property name="font">
             <font>
              <family>Inter UI Medium</family>
-             <pointsize>12</pointsize>
+             <pointsize>10</pointsize>
              <weight>50</weight>
              <bold>false</bold>
             </font>
@@ -9481,10 +9459,16 @@ border-image: url(:/img/480px_Green_Arrow_Down.png);
          </property>
          <item>
           <widget class="QLabel" name="King_Power_Label_3">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
            <property name="font">
             <font>
              <family>Inter UI Medium</family>
-             <pointsize>12</pointsize>
+             <pointsize>10</pointsize>
              <weight>50</weight>
              <bold>false</bold>
             </font>
@@ -9626,7 +9610,6 @@ border-image: url(:/img/480px_Green_Arrow_Down.png);
     <zorder>Poker_L_or_G_TLine_butt1</zorder>
     <zorder>Joker_Rel_to_L_or_G_butt</zorder>
     <zorder>Joker_L_or_G_TLine_butt1</zorder>
-    <zorder>Ace_L_or_G_frame</zorder>
     <zorder>groupBox_2</zorder>
    </widget>
   </widget>

@@ -13,6 +13,7 @@ from PyQt5.QtWidgets import (QApplication, QMainWindow, QSizePolicy, QMessageBox
                              QVBoxLayout)
 import serial
 
+# Need to change accordingly
 # Mac serial port
 #ser = serial.Serial('/dev/cu.usbserial-AI05B96M', 9600)
 # Windows serial port
@@ -21,6 +22,12 @@ import serial
 #ser = serial.Serial('/dev/tty0', 9600)
 
 ############################ Open/Close Prompt Breaker 1 #############################
+
+#----------------------------------------------------------------------------------------------------
+# This is the first test run with communication. This test was successful, however the GUI needed to
+# be improved because it is ambiguous how all transmission lines connect to different substations.
+#-------------------------------------------------------------------------------------------------------
+
 class WindowA1(QDialog):
     def __init__(self, *args, **kwargs):
         QWidget.__init__(self, *args, **kwargs)

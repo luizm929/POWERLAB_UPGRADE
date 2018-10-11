@@ -13,6 +13,8 @@
 # Thanks to Jose Tabarez for his help.
 #------------------------------------------------------------
 
+
+#TODO Clean all unused libraries
 import random, sys, traceback, socket, time, sched
 from time import sleep
 from PyQt5 import QtCore, QtGui, QtWidgets

@@ -39,7 +39,7 @@ class runcommands(QWidget):
 
         self.setLayout(layout)
         self.setWindowTitle("Run & Monitor")
-        #self.commandrunning="0"
+        self.commandrunning="0"
         self.mylistofprocesses=[]
 
 
@@ -84,22 +84,22 @@ class runcommands(QWidget):
         process.start(command)
 
         # # this was supposed to add the process status in the relative column ... BUT it DOESN'T do it
-        status_item.setText(str(process.ProcessState()))
+        #status_item.setText(str(process.ProcessState()))
         # # connect the kill button to the process.kill method, to stop the process
         killbtn.clicked.connect(process.kill)
         killbtn.clicked.connect(lambda: killbtn.setText('Killed'))
         # # this was supposed to 'UPDATE' the process status (from running to stoppted) in the relative column ... BUT it DOESN'T do it
-        killbtn.clicked.connect(lambda: status_item.setText(str(process.ProcessState())))
+        #killbtn.clicked.connect(lambda: status_item.setText(str(process.ProcessState())))
         # append the process to a list so that it doesn't get destroyed at each run
         self.mylistofprocesses.append(process)
 
         status = {QProcess.Starting: "Starting",
-                    QProcess.Running: "Running",
+                  QProcess.Running: "Running",
                   QProcess.NotRunning: "Not Running"}
 
-        print(status)
         process.stateChanged.connect(lambda state: status_item.setText(status[state]))
 
+        #process.stateChanged.connect(lambda state: status_item.setText(process.ProsessState(status[state])))
 
 
 def main():
