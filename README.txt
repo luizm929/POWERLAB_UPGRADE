@@ -1,5 +1,5 @@
 
-Power Laboratory Upgrade App
+Power Laboratory Upgrade 2.0
 
 #--------------Please Read This First------------------------------------
 This is part of a big project (smart grids). All parts work together however they are installed in different
