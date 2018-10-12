@@ -14,7 +14,7 @@ The main GUI's in this folder are
 LoadBanksV2.py            <-- Working!
 Power_Lab_GUI_Main.py     <-- Needs to be redesigned
 
-Communication files are
+Communication files are. Real communication code is not included.
 
 simplerun.py
 simplerun2.py
@@ -22,7 +22,7 @@ simplerun2.py
 The GUI's is not yet password protected thus the modes are still not available.
 
 
-#--------------- Things that need to be fixed--------------------------------------
+#--------------- Things that need to be fixed/implemented--------------------------------------
 
 1. Power_Lab_GUI_Main.py needs to be redesigned to include controls for P and Q.
-2.
+2. Password protection for different modes.
